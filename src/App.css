@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #535353; /* Başlık metni rengi */
+}
+
+h2 {
+  margin-top: 20px;
+  color: #666; /* Metin rengi */
+}
+
+h {
+  margin-top: 20px;
+  color: #666; /* Metin rengi */
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4d4f52; /* Düğme arka plan rengi */
+  color: #fff; /* Düğme metin rengi */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Düğme geçiş efekti */
+}
+
+button:hover {
+  background-color: #232324; /* Düğme üzerine gelindiğinde arka plan rengi */
+}
